@@ -17,7 +17,7 @@ class Acknowledgements : UITableViewController {
             forResource: "Acknowledgements",
             withExtension: "plist"
             ) else {
-                assert(true, "Failed to load Acknowledgements.plist")
+                assert(true, "Unable to loast acknowledgements.plist")
                 return
         }
         
@@ -48,7 +48,7 @@ class Acknowledgements : UITableViewController {
             let acknowledgement = acknowledgements![(indexPath as NSIndexPath).section]
             
             cell.titleLabel.text
-                = acknowledgement.object(forKey: "title") as? String
+                = acknowledgement.object(forKey: "title") as String
             cell.contentLabel.text
                 = acknowledgement.object(forKey: "text") as? String
             
