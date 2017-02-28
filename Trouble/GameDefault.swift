@@ -30,7 +30,7 @@ final public class GameDefaults: NSUserDefaults
         }
         set {
             _mute = NSNumber(bool: newValue)
-            setBool(newValue, forKey: kMuteKey)
+             setBool(newValue, forKey: kMuteKey)
             synchronize()
         }
     }
