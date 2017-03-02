@@ -9,7 +9,7 @@ class AppDelegate:
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey : Any]? = nil) -> Bool {
         if let splitViewController = window?.rootViewController
             as? UISplitViewController {
-            splitViewController.delegate = self
+              splitViewController.delegate = self
             splitViewController.preferredDisplayMode = .allVisible
         }
         
@@ -23,7 +23,7 @@ class AppDelegate:
     func splitViewController(
         _ splitViewController: UISplitViewController,
         collapseSecondary secondaryViewController:UIViewController,
-        onto primaryViewController:UIViewController
+          onto primaryViewController:UIViewController
         ) -> Bool {
             if let secondaryAsNavController = secondaryViewController
                 as? UINavigationController {
