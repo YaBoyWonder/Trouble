@@ -7,7 +7,7 @@ static CGFloat screenScale = 0;
 + (instancetype) inside:(Class<UIAppearanceContainer>)containerClass {
     if (screenScale == 0) {
         screenScale = [[UIScreen mainScreen] scale];
-    }
+       }
     UITraitCollection *trainCollection =
     [UITraitCollection traitCollectionWithDisplayScale:screenScale];
     return [self appearanceForTraitCollection:trainCollection
