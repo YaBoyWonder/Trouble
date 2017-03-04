@@ -2,7 +2,7 @@ import UIKit
 
 final class WordListHeader : UIView {
 
-    let countrySegment = UISegmentedControl(items: ["en_US", "en_GB"])
+    let countrySegment = UISegmentedControl(items: ["en_US"])
 
     init () {
         super.init(frame: CGRect.zero)
