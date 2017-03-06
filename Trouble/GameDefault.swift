@@ -12,7 +12,7 @@ final public class GameDefaults: NSUserDefaults
         struct Static
         {
             static let sharedInstance: GameDefaults = {
-                let instance = GameDefaults(suiteName: kAppGroupIdentifier)!
+                 let instance = GameDefaults(suiteName: kAppGroupIdentifier)!
                 return instance
                 }()
         }
