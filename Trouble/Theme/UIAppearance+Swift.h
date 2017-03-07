@@ -10,7 +10,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UIBarItem (UIBarItemAppearance_Swift)
 
-  + (instancetype) inside:(Class<UIAppearanceContainer>)containerClass;
+   + (instancetype) inside:(Class<UIAppearanceContainer>)containerClass;
 
 NS_ASSUME_NONNULL_END
 
