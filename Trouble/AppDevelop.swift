@@ -28,7 +28,7 @@ class AppDelegate:
             if let secondaryAsNavController = secondaryViewController
                 as? UINavigationController {
                if let _ = secondaryAsNavController.topViewController
-                        return true
+             return true
                     }
             }
             return false
