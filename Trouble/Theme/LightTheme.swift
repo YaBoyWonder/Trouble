@@ -3,7 +3,7 @@ import UIKit
 struct LTLightTheme : LTTheme {
 
     var name = "Light"
-    var defaultBackgroundColor   = UIColor(red:0.94, green:0.94, blue:0.96, alpha:1)
+        var defaultBackgroundColor   = UIColor(red:0.94, green:0.94, blue:0.96, alpha:1)
     var navigationBarColor       = UIColor(red:0.97, green:0.97, blue:0.97, alpha:1)
     var tintColor                = UIColor(red:0   , green:0.6 , blue:1   , alpha:1)
     var textColor                = UIColor(red:0.19, green:0.19, blue:0.19, alpha:1)
