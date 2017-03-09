@@ -3,7 +3,7 @@ import UIKit
 let kAppGroupIdentifier = "group.Trouble"
     let kMuteKey = "mute"
     let kDidRemoveAdsKey = "didRemoveAds"
-let kBestScoreKey = "bestScore"
+    let kBestScoreKey = "bestScore"
 
 final public class GameDefaults: NSUserDefaults
 {
