@@ -23,7 +23,7 @@ final public class GameDefaults: NSUserDefaults
     var _mute: NSNumber?
     var mute: Bool {
         get {
-            if _mute == nil {
+                if _mute == nil {
                 _mute = NSNumber(bool: boolForKey(kMuteKey))
             }
             return _mute!.boolValue
