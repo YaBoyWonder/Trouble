@@ -15,7 +15,7 @@ class VPNTableViewCell : NormalTableViewCell {
     
     override func draw(_ rect: CGRect) {
         if IKEv2 {
-            let tagWidth: CGFloat = 34
+           let tagWidth: CGFloat = 34
             let tagHeight: CGFloat = 14
             let tagX: CGFloat
 
