@@ -17,7 +17,7 @@ class VPNTableViewCell : NormalTableViewCell {
         if IKEv2 {
            let tagWidth: CGFloat = 34
            let tagHeight: CGFloat = 14
-            let tagX: CGFloat
+           let tagX: CGFloat
 
             if isRightToLeft {
                 tagX = (accessoryView?.frame.maxX ?? 0) + kRightMargin + kAccessoryWidth
