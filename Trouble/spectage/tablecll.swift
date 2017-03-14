@@ -5,7 +5,7 @@ import UIKit
 
 class VPNTableViewCell : NormalTableViewCell {
     
-    var IKEv2: Bool = false {
+      var IKEv2: Bool = false {
         didSet { setNeedsDisplay() }
     }
     
