@@ -10,7 +10,7 @@ static CGFloat screenScale = 0;
        }
     UITraitCollection *trainCollection =
      [UITraitCollection traitCollectionWithDisplayScale:screenScale];
-    return [self appearanceForTraitCollection:trainCollection
+         return [self appearanceForTraitCollection:trainCollection
             whenContainedInInstancesOfClasses:@[containerClass]];
 }
 
