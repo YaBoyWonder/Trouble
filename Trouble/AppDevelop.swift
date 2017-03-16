@@ -8,9 +8,9 @@ class AppDelegate:
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey : Any]? = nil) -> Bool {
         if let splitViewController = window?.rootViewController
-            as? UISplitViewController {
+           as? UISplitViewController {
             splitViewController.delegate = self
-           splitViewController.preferredDisplayMode = .allVisible
+            splitViewController.preferredDisplayMode = .allVisible
         }
         
         LTThemeManager.sharedManager.activateTheme()
