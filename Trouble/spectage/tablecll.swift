@@ -1,7 +1,7 @@
 import UIKit
 
-    private let kAccessoryWidth: CGFloat = 16
-    private let kRightMargin: CGFloat = 36
+   private let kAccessoryWidth: CGFloat = 16
+   private let kRightMargin: CGFloat = 36
 
 class VPNTableViewCell : NormalTableViewCell {
     
