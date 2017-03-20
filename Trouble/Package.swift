@@ -14,9 +14,12 @@ targets: [
         name: "Trouble"
     ),
     Target(
+     
         name: "{}Tests",
-        dependencies: [
-            .Target(name: "{}")
+        
+            dependencies: [
+            
+                .Target(name: "{}")
         ]
     )
 ]
