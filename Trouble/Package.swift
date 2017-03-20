@@ -2,8 +2,10 @@ import PackageDescription
 
 let package = Package(
 name: "Trouble",
-exclude: [
-    "{}"
+    
+    exclude: [
+    
+        "{}"
 ],
 targets: [
     Target(
