@@ -10,7 +10,7 @@ class AppDelegate:
         if let splitViewController = window?.rootViewController
            as? UISplitViewController {
             splitViewController.delegate = self
-           splitViewController.preferredDisplayMode = .allVisible
+             splitViewController.preferredDisplayMode = .allVisible
         }
         
         LTThemeManager.sharedManager.activateTheme()
