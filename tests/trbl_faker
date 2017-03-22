@@ -11,7 +11,7 @@ case "$1" in
     list )
         exec service --status-all
         ;;
-    reload-configuration )
+        reload-configuration )
         exec service $2 restart
         ;;
     start|stop|restart|reload|status)
