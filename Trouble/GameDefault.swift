@@ -13,7 +13,8 @@ final public class GameDefaults: NSUserDefaults
         {
             static let sharedInstance: GameDefaults = {
                     let instance = GameDefaults(suiteName: kAppGroupIdentifier)!
-                 return instance
+               
+                return instance
                 }()
         }
         
