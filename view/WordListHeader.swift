@@ -21,7 +21,7 @@ final class WordListHeader : UIView {
         super.layoutSubviews()
 
             countrySegment.sizeToFit()
-            countrySegment.frame.origin.x = (bounds.width - countrySegment.bounds.width) / 2
+             countrySegment.frame.origin.x = (bounds.width - countrySegment.bounds.width) / 2
             countrySegment.frame.origin.y = (bounds.height - countrySegment.bounds.height) / 2
     }
 
