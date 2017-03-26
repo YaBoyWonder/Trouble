@@ -10,7 +10,7 @@ final class WordListHeader : UIView {
         addSubview(countrySegment)
 
         let fontAttr = [ NSFontAttributeName: UIFont.systemFont(ofSize: 18) ]
-         countrySegment.setTitleTextAttributes(fontAttr, for: .normal)
+        countrySegment.setTitleTextAttributes(fontAttr, for: .normal)
     }
     
     required init?(coder aDecoder: NSCoder) {
