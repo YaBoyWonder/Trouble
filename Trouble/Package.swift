@@ -17,7 +17,7 @@ targets: [
      
         name: "{}Tests",
         
-            dependencies: [
+           dependencies: [
             
                 .Target(name: "{}")
         ]
