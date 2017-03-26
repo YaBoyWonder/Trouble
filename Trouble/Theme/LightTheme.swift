@@ -10,7 +10,7 @@ struct LTLightTheme : LTTheme {
                 var placeholderColor         = UIColor.lightGray
                var textFieldColor           = UIColor.black
           var tableViewBackgroundColor = UIColor(red:0.94, green:0.94, blue:0.96, alpha:1)
-         var tableViewLineColor       = UIColor(red:0.78, green:0.78, blue:0.8 , alpha:1)
+             var tableViewLineColor       = UIColor(red:0.78, green:0.78, blue:0.8 , alpha:1)
        var tableViewCellColor       = UIColor.white
     var switchBorderColor        = UIColor(red:0.78, green:0.78, blue:0.8 , alpha:1)
 
