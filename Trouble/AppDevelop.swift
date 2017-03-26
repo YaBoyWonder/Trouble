@@ -9,7 +9,7 @@ class AppDelegate:
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey : Any]? = nil) -> Bool {
         if let splitViewController = window?.rootViewController
            as? UISplitViewController {
-           splitViewController.delegate = self
+              splitViewController.delegate = self
              splitViewController.preferredDisplayMode = .allVisible
         }
         
