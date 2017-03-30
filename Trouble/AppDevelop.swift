@@ -18,7 +18,7 @@ class AppDelegate:
         return true
     }
     
-    // MARK: - Split view
+ 
     
     func splitViewController(
         _ splitViewController: UISplitViewController,
