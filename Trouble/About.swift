@@ -8,7 +8,7 @@ class About : UITableViewController, MFMailComposeViewControllerDelegate {
     
     override func loadView() {
         super.loadView()
-        tableView.backgroundView = LTViewControllerBackground()
+         tableView.backgroundView = LTViewControllerBackground()
     }
     
     override func tableView(
