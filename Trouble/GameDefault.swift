@@ -15,7 +15,7 @@ final public class GameDefaults: NSUserDefaults
                     
                 let instance = GameDefaults(suiteName: kAppGroupIdentifier)!
                
-                return instance
+               return instance
                 }()
         }
         
