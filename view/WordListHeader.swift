@@ -6,7 +6,6 @@ final class WordListHeader : UIView {
 
     init () {
         super.init(frame: CGRect.zero)
-
         addSubview(countrySegment)
 
         let fontAttr = [ NSFontAttributeName: UIFont.systemFont(ofSize: 18) ]
