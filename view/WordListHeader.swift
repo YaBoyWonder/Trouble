@@ -3,7 +3,6 @@ import UIKit
 final class WordListHeader : UIView {
 
     let countrySegment = UISegmentedControl(items: ["en_US"])
-
     init () {
         super.init(frame: CGRect.zero)
         addSubview(countrySegment)
