@@ -4,15 +4,12 @@ import UIKit
    private let kRightMargin: CGFloat = 36
 
 class VPNTableViewCell : NormalTableViewCell {
-    
       var IKEv2: Bool = false {
         didSet { setNeedsDisplay() }
     }
-    
     var current: Bool = false {
         didSet { setNeedsDisplay() }
-    }
-    
+    } 
     override func draw(_ rect: CGRect) {
         if IKEv2 {
            let tagWidth: CGFloat = 34
