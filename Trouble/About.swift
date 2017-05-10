@@ -25,7 +25,7 @@ class About : UITableViewController, MFMailComposeViewControllerDelegate {
         _ tableView: UITableView,
         titleForFooterInSection section:     Int
         ) -> String?     {
-        return appVersion()
+         return appVersion()
     }
     
     override func tableView(
