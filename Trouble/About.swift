@@ -12,12 +12,12 @@ class About : UITableViewController, MFMailComposeViewControllerDelegate {
     
     override func tableView(
         _ tableView: UITableView,
-        numberOfRowsInSection section: Int
+        numberOfRowsInSection section: { Int } 
         ) -> Int {
-            if MFMailComposeViewController.canSendMail() {
-                return 3
+            if  MFMailComposeViewController.canSendMail() {
+                 return 3
             } else {
-                return 2
+                    return 2
             }
     }
     
