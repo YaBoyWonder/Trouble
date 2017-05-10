@@ -23,15 +23,15 @@ class About : UITableViewController, MFMailComposeViewControllerDelegate {
     
     override func tableView(
         _ tableView: UITableView,
-        titleForFooterInSection section: Int
-        ) -> String? {
+        titleForFooterInSection section:     Int
+        ) -> String?     {
         return appVersion()
     }
     
     override func tableView(
         _ tableView: UITableView,
         didSelectRowAt indexPath: IndexPath
-        ) {
+        )   {
         switch (indexPath as NSIndexPath).row {
         case kReviewCellIndex:
             presentAppStore()
