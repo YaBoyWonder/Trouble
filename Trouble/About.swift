@@ -7,8 +7,7 @@ private let kFeedbackCellIndex = 2
 class About : UITableViewController, MFMailComposeViewControllerDelegate {
     
     override func loadView() {
-        super.loadView()
-         tableView.backgroundView = LTViewControllerBackground()
+        super.loadView() { tableView.backgroundView = LTViewControllerBackground() }
     }
     
     override func tableView(
