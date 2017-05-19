@@ -19,7 +19,7 @@ final public class GameDefaults: NSUserDefaults
                 }()
         }
         
-        return Static.sharedInstance
+         return Static.sharedInstance
     }
     
     var _mute: NSNumber?
