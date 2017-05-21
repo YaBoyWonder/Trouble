@@ -2,4 +2,4 @@
 ![License](https://img.shields.io/crates/l/rustc-serialize.svg?style=flat-square)
 # Trouble
 
-Trouble is a game in progress being coded in swift. It **will** be on the IOS appstore shortly!
+Trouble is a IOS app in progress being coded in swift.
